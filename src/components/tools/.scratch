@@ -1,0 +1,4 @@
+Stray file from a mistyped write during development. Not imported, not compiled
+(no extension, so Next and TypeScript ignore it). Safe to delete:
+
+  Remove-Item "src\components\tools\.scratch"

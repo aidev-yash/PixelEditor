@@ -1,0 +1,21 @@
+import type { MetadataRoute } from 'next';
+import { BRAND, TAGLINE } from '@/lib/site';
+
+export default function manifest(): MetadataRoute.Manifest {
+  return {
+    name: `${BRAND} — ${TAGLINE}`,
+    short_name: BRAND,
+    description: 'Privacy-first image tools that run entirely in your browser.',
+    start_url: '/',
+    display: 'standalone',
+    background_color: '#f5f6f7',
+    theme_color: '#0b0f15',
+    icons: [
+      {
+        src: '/favicon.svg',
+        sizes: 'any',
+        type: 'image/svg+xml',
+      },
+    ],
+  };
+}
