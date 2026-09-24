@@ -39,7 +39,7 @@ Other scripts:
 
 1. **Set the domain.** `src/lib/site.ts` → `SITE_URL` (no trailing slash). It
    drives every canonical tag, Open Graph URL, `sitemap.xml` entry and
-   `robots.txt` line. It currently reads `https://localpixel.example`.
+   `robots.txt` line. Configured for `https://pixeleditor.mrmanager.me`.
 2. **Add the icons.** `favicon.ico`, `icon.png` (512×512) and `apple-icon.png`
    (180×180) in `src/app/`, plus `opengraph-image.png` (1200×630) if you want a
    social preview card. Next.js picks these up by filename automatically — no

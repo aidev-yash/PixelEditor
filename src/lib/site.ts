@@ -5,7 +5,7 @@
  */
 
 /** No trailing slash. Change this to the production domain before launch. */
-export const SITE_URL = 'https://pixeleditor.example';
+export const SITE_URL = 'https://pixeleditor.mrmanager.me';
 
 export const BRAND = 'PixelEditor';
 
@@ -14,14 +14,14 @@ export const TAGLINE = 'Image tools that run on your device';
 export const CONTACT_EMAIL = 'support@mrmanager.me';
 
 /** Shown on the legal pages. Update when the documents are revised. */
-export const LEGAL_LAST_UPDATED = '20 September 2026';
+export const LEGAL_LAST_UPDATED = '24 September 2026';
 
 /**
  * Date reported in the sitemap. Deliberately a constant rather than the build
  * date, so a rebuild with no content change does not tell crawlers that every
  * page was modified. Bump it when pages actually change.
  */
-export const CONTENT_LAST_MODIFIED = '2026-09-20';
+export const CONTENT_LAST_MODIFIED = '2026-09-24';
 
 /** Builds an absolute URL for canonicals, Open Graph and the sitemap. */
 export function absoluteUrl(path: string): string {

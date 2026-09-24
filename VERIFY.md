@@ -132,8 +132,8 @@ private", "zero data collection", "completely anonymous", "absolutely secure",
   `src/lib/tools.ts` and the four static pages.
 - Canonicals and `sitemap.xml` all use trailing slashes, matching
   `trailingSlash: true`.
-- `SITE_URL` in `src/lib/site.ts` is still `https://localpixel.example`. **Set
-  it to the real domain before launch** or every canonical will be wrong.
+- `SITE_URL` in `src/lib/site.ts` is configured as `https://pixeleditor.mrmanager.me`.
+  Canonicals, Open Graph, and sitemap entries reflect this live domain.
 - Structured data: `WebSite` + `FAQPage` on the homepage, `SoftwareApplication`
   + `BreadcrumbList` + `FAQPage` on each tool page, `BreadcrumbList` on the
   legal pages, `Organization` site-wide. Validate a sample at
