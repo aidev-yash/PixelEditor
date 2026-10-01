@@ -5,7 +5,7 @@ import { pageMetadata, webPageJsonLd } from '@/lib/seo';
 import { BRAND, CONTACT_EMAIL, LEGAL_LAST_UPDATED } from '@/lib/site';
 
 export const metadata: Metadata = pageMetadata({
-  title: `Privacy Policy — How We Protect Your Images & Data`,
+  title: 'Privacy Promise: Your Photos Never Leave Your Phone or PC',
   description:
     'PixelEditor privacy policy: images are processed in your browser without server uploads. Clear information on web host logs, cookies, and local execution.',
   keywords: [

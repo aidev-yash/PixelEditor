@@ -5,7 +5,7 @@ import { pageMetadata, webPageJsonLd } from '@/lib/seo';
 import { BRAND, CONTACT_EMAIL, LEGAL_LAST_UPDATED } from '@/lib/site';
 
 export const metadata: Metadata = pageMetadata({
-  title: `Cookie Policy — Why This Site Sets No Tracking Cookies`,
+  title: "Cookie Policy: We Don't Track You or Show Popup Ads",
   description:
     'PixelEditor sets no tracking or marketing cookies and loads no analytics scripts. Read why our tools need no cookie consent banner and how your data is handled.',
   keywords: [

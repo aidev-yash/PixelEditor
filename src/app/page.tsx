@@ -10,7 +10,7 @@ import { BRAND } from '@/lib/site';
 import { toolHref, toolsByCategory } from '@/lib/tools';
 
 export const metadata: Metadata = pageMetadata({
-  title: `${BRAND} – Private Browser-Based Image Tools`,
+  title: 'PixelEditor — Free & 100% Private Online Photo Tools',
   description:
     'Process images directly in your browser with local image tools for resizing, cropping, compression, conversion, dimensions, EXIF cleaning, and batch processing.',
   keywords: [

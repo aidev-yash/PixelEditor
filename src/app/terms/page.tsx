@@ -5,7 +5,7 @@ import { pageMetadata, webPageJsonLd } from '@/lib/seo';
 import { BRAND, CONTACT_EMAIL, LEGAL_LAST_UPDATED } from '@/lib/site';
 
 export const metadata: Metadata = pageMetadata({
-  title: `Terms of Service — Free In-Browser Tools`,
+  title: 'Terms of Service: Free & Safe Photo Editing Rules',
   description:
     'Terms of Service for PixelEditor: terms for using our free browser-based image tools, user responsibilities, local processing scope, and liability limits.',
   keywords: [

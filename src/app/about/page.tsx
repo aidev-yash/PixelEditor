@@ -6,7 +6,7 @@ import { BRAND, CONTACT_EMAIL } from '@/lib/site';
 import { toolHref, toolsByCategory } from '@/lib/tools';
 
 export const metadata: Metadata = pageMetadata({
-  title: `About ${BRAND} — Private Browser-Based Image Tools`,
+  title: 'About PixelEditor: Fast Photo Tools in Your Browser',
   description:
     'Learn how PixelEditor processes images directly on your device using Canvas and Web Workers, why we never upload your files, and how our tools are built.',
   keywords: [
