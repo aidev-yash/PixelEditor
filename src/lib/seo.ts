@@ -75,10 +75,18 @@ export function toolMetadata(tool: ToolMeta): Metadata {
 
 const PUBLISHER = {
   '@type': 'Organization',
+  '@id': `${SITE_URL}/#organization`,
   name: BRAND,
   url: `${SITE_URL}/`,
   logo: `${SITE_URL}/favicon.svg`,
   description: TAGLINE,
+  // Entity link: PixelEditor is a product of the MrManager suite.
+  parentOrganization: {
+    '@type': 'Organization',
+    '@id': 'https://mrmanager.me/#organization',
+    name: 'MrManager',
+    url: 'https://mrmanager.me',
+  },
 };
 
 export function websiteJsonLd() {
