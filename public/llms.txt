@@ -14,7 +14,7 @@ PixelEditor is a high-speed, private browser image studio featuring 14 single-pu
 ## The 14 In-Browser Tools
 - [Image Resizer](https://pixeleditor.mrmanager.me/image-resizer/): High-fidelity pixel dimension scaling.
 - [Image Cropper](https://pixeleditor.mrmanager.me/image-cropper/): Interactive aspect-ratio cropping.
-- [Rotate & Flip](https://pixeleditor.mrmanager.me/rotate-flip/): Orientation correction and horizontal/vertical flipping.
+- [Rotate & Flip](https://pixeleditor.mrmanager.me/rotate-flip-image/): Orientation correction and horizontal/vertical flipping.
 - [Image Compressor](https://pixeleditor.mrmanager.me/image-compressor/): File size reduction to target KB.
 - [JPG to PNG](https://pixeleditor.mrmanager.me/jpg-to-png/): Format conversion with alpha transparency support.
 - [PNG to JPG](https://pixeleditor.mrmanager.me/png-to-jpg/): Web format conversion with white-matte blending.
@@ -22,10 +22,10 @@ PixelEditor is a high-speed, private browser image studio featuring 14 single-pu
 - [PNG to WebP](https://pixeleditor.mrmanager.me/png-to-webp/): Transparent lossless/lossy WebP compression.
 - [WebP to JPG](https://pixeleditor.mrmanager.me/webp-to-jpg/): Universal JPEG format conversion.
 - [EXIF Remover](https://pixeleditor.mrmanager.me/exif-remover/): GPS and camera metadata scrubbing.
-- [Dimensions Checker](https://pixeleditor.mrmanager.me/dimensions-checker/): Instant resolution and DPI inspection.
-- [Batch Resizer](https://pixeleditor.mrmanager.me/batch-resizer/): Multi-image bulk scaling.
-- [Batch Compressor](https://pixeleditor.mrmanager.me/batch-compressor/): Multi-image bulk compression.
-- [Batch Converter](https://pixeleditor.mrmanager.me/batch-converter/): Multi-image bulk format transformation.
+- [Dimensions Checker](https://pixeleditor.mrmanager.me/image-dimensions-checker/): Instant resolution and DPI inspection.
+- [Batch Resizer](https://pixeleditor.mrmanager.me/batch-image-resizer/): Multi-image bulk scaling.
+- [Batch Compressor](https://pixeleditor.mrmanager.me/batch-image-compressor/): Multi-image bulk compression.
+- [Batch Converter](https://pixeleditor.mrmanager.me/batch-image-converter/): Multi-image bulk format transformation.
 
 ## Core URLs
 - Homepage: https://pixeleditor.mrmanager.me/
