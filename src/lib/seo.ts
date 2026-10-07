@@ -94,6 +94,7 @@ export function websiteJsonLd() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: BRAND,
+    alternateName: ['Pixel Editor', 'PixelEditor Suite'],
     url: `${SITE_URL}/`,
     description:
       'Free browser-based image tools for resizing, cropping, compressing and converting images without uploading them.',

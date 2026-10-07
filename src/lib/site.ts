@@ -21,7 +21,7 @@ export const LEGAL_LAST_UPDATED = '24 September 2026';
  * date, so a rebuild with no content change does not tell crawlers that every
  * page was modified. Bump it when pages actually change.
  */
-export const CONTENT_LAST_MODIFIED = '2026-09-24';
+export const CONTENT_LAST_MODIFIED = '2026-10-07';
 
 /** Builds an absolute URL for canonicals, Open Graph and the sitemap. */
 export function absoluteUrl(path: string): string {

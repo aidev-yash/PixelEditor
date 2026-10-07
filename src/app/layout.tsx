@@ -49,13 +49,12 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
-      { url: '/favicon.ico', sizes: 'any' },
       { url: '/icon-48.png', type: 'image/png', sizes: '48x48' },
       { url: '/icon-96.png', type: 'image/png', sizes: '96x96' },
       { url: '/icon-144.png', type: 'image/png', sizes: '144x144' },
       { url: '/icon-192.png', type: 'image/png', sizes: '192x192' },
       { url: '/icon-512.png', type: 'image/png', sizes: '512x512' },
-      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico', sizes: 'any' },
     ],
     shortcut: ['/favicon.ico'],
     apple: [
