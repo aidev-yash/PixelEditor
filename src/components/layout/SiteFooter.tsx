@@ -61,21 +61,21 @@ export function SiteFooter() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-rule pt-6 sm:flex-row sm:items-center sm:justify-between">
           <p className="font-mono text-2xs text-ink-muted">
-            © {new Date().getFullYear()} {BRAND}
+            © {new Date().getFullYear()} {BRAND} · A <a href="https://mrmanager.me" target="_blank" rel="noopener noreferrer" className="hover:text-signal underline underline-offset-2">MrManager</a> Suite Tool
           </p>
           <nav aria-label="Legal" className="flex flex-wrap gap-x-6 gap-y-2">
             <Link href="/about/" className="text-sm text-ink-muted hover:text-ink">
               About us
             </Link>
-            <Link href="/terms/" className="text-sm text-ink-muted hover:text-ink">
-              Terms of Service
-            </Link>
-            <Link href="/privacy/" className="text-sm text-ink-muted hover:text-ink">
-              Privacy Policy
-            </Link>
-            <Link href="/cookies/" className="text-sm text-ink-muted hover:text-ink">
-              Cookie Policy
-            </Link>
+            <a href="https://mrmanager.me/terms-of-service" target="_blank" rel="noopener noreferrer" className="text-sm text-ink-muted hover:text-ink">
+              Master Terms
+            </a>
+            <a href="https://mrmanager.me/privacy-policy" target="_blank" rel="noopener noreferrer" className="text-sm text-ink-muted hover:text-ink">
+              Master Privacy
+            </a>
+            <a href="https://mrmanager.me/tools" target="_blank" rel="noopener noreferrer" className="text-sm text-ink-muted hover:text-ink">
+              All Suite Tools
+            </a>
           </nav>
         </div>
       </div>
