@@ -3,7 +3,7 @@ import { BRAND, TAGLINE } from '@/lib/site';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${BRAND} — ${TAGLINE}`,
+    name: BRAND,
     short_name: BRAND,
     description: 'Privacy-first image tools that run entirely in your browser.',
     start_url: '/',

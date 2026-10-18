@@ -6,7 +6,7 @@ import { BackgroundParticles } from '@/components/layout/BackgroundParticles';
 import { JsonLd } from '@/components/layout/JsonLd';
 import { SiteFooter } from '@/components/layout/SiteFooter';
 import { SiteHeader } from '@/components/layout/SiteHeader';
-import { organizationJsonLd } from '@/lib/seo';
+import { organizationJsonLd, websiteJsonLd } from '@/lib/seo';
 import { BRAND, SITE_URL, TAGLINE } from '@/lib/site';
 
 /**
@@ -46,6 +46,11 @@ export const metadata: Metadata = {
   description:
     'Free image tools that resize, crop, compress, convert and clean metadata in your browser, with no upload step and no account.',
   applicationName: BRAND,
+  appleWebApp: {
+    capable: true,
+    title: BRAND,
+    statusBarStyle: 'default',
+  },
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -146,7 +151,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           <SiteFooter />
         </div>
 
-        <JsonLd data={organizationJsonLd()} />
+        <JsonLd data={[websiteJsonLd(), organizationJsonLd()]} />
       </body>
     </html>
   );

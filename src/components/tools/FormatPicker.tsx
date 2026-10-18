@@ -57,7 +57,7 @@ export function FormatPicker({
   }
   options.push({ value: 'image/jpeg', label: 'JPG', hint: 'Smallest for photographs. No transparency.' });
   options.push({ value: 'image/png', label: 'PNG', hint: 'Lossless, keeps transparency, larger files.' });
-  if (support?.webp) {
+  if (support === null || support.webp) {
     options.push({ value: 'image/webp', label: 'WebP', hint: 'Usually smaller than JPG at the same quality.' });
   }
   if (support?.avif) {

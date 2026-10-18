@@ -77,29 +77,29 @@ const PUBLISHER = {
   '@type': 'Organization',
   '@id': `${SITE_URL}/#organization`,
   name: BRAND,
+  alternateName: ['PixelEditor Online', 'PixelEditor Image Tools'],
   url: `${SITE_URL}/`,
-  logo: `${SITE_URL}/favicon.svg`,
-  description: TAGLINE,
-  // Entity link: PixelEditor is a product of the MrManager suite.
-  parentOrganization: {
-    '@type': 'Organization',
-    '@id': 'https://mrmanager.me/#organization',
-    name: 'MrManager',
-    url: 'https://mrmanager.me',
+  logo: {
+    '@type': 'ImageObject',
+    url: `${SITE_URL}/icon-512.png`,
+    width: 512,
+    height: 512,
   },
+  description: TAGLINE,
 };
 
 export function websiteJsonLd() {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
     name: BRAND,
-    alternateName: ['Pixel Editor', 'PixelEditor Suite'],
+    alternateName: ['PixelEditor', 'PixelEditor Image Tools'],
     url: `${SITE_URL}/`,
     description:
       'Free browser-based image tools for resizing, cropping, compressing and converting images without uploading them.',
-    publisher: PUBLISHER,
-    inLanguage: 'en',
+    inLanguage: 'en-US',
+    publisher: { '@id': `${SITE_URL}/#organization` },
   };
 }
 

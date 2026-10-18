@@ -40,7 +40,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'image-resizer',
     name: 'Image resizer',
     h1: 'Image Resizer',
-    title: 'Resize Photos Online: Passport & Custom Sizes Free',
+    title: 'Image Resizer: Resize Photos in Pixels or % | PixelEditor',
     description:
       'Resize images by exact pixels or percentage in your browser. No server uploads, instant scaling, and local processing for sensitive photos.',
     keywords: [
@@ -60,7 +60,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'image-cropper',
     name: 'Image cropper',
     h1: 'Image Cropper',
-    title: 'Crop Image Online: Free Photo Cropper | PixelEditor',
+    title: 'Image Cropper: Crop Photos to Custom Aspect Ratio | PixelEditor',
     description:
       'Crop photos to custom dimensions or aspect ratios directly in your browser. Sensitive image data stays local while you crop and download.',
     keywords: [
@@ -79,7 +79,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'rotate-flip-image',
     name: 'Rotate & flip',
     h1: 'Rotate & Flip Image',
-    title: 'Rotate & Flip Photos Online: Fix Sideways Pictures',
+    title: 'Rotate & Flip Image Online (90°, 180°, Mirror) | PixelEditor',
     description:
       'Rotate images 90, 180, or 270 degrees and flip them horizontally or vertically directly in your browser without uploading files.',
     keywords: [
@@ -99,7 +99,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'image-compressor',
     name: 'Image compressor',
     h1: 'Image Compressor',
-    title: 'Compress Photos Online: Make File Size Smaller Free',
+    title: 'Image Compressor: Reduce Photo Size in KB | PixelEditor',
     description:
       'Compress JPEG, PNG, and WebP images directly in your browser. Reduce file size locally without uploading sensitive photos to a server.',
     keywords: [
@@ -119,7 +119,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'jpg-to-png',
     name: 'JPG to PNG',
     h1: 'JPG to PNG Converter',
-    title: 'JPG to PNG Converter Online | PixelEditor',
+    title: 'JPG to PNG Converter Online (Lossless) | PixelEditor',
     description:
       'Convert JPG and JPEG images to PNG directly in your browser without uploading the source file. Local processing keeps the workflow private.',
     keywords: [
@@ -138,7 +138,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'png-to-jpg',
     name: 'PNG to JPG',
     h1: 'PNG to JPG Converter',
-    title: 'PNG to JPG Converter Online | PixelEditor',
+    title: 'PNG to JPG Converter Online (Custom Background) | PixelEditor',
     description:
       'Convert PNG files to JPG directly in your browser without uploading them. Choose an appropriate background when converting transparent images.',
     keywords: [
@@ -157,7 +157,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'jpg-to-webp',
     name: 'JPG to WebP',
     h1: 'JPG to WebP Converter',
-    title: 'JPG to WebP Converter Online | PixelEditor',
+    title: 'JPG to WebP Converter Online (Smaller File Size) | PixelEditor',
     description:
       'Convert JPG and JPEG images to WebP directly in your browser without uploading them to a server. Adjust output quality locally.',
     keywords: [
@@ -177,7 +177,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'png-to-webp',
     name: 'PNG to WebP',
     h1: 'PNG to WebP Converter',
-    title: 'PNG to WebP Converter Online | PixelEditor',
+    title: 'PNG to WebP Converter Online (Keep Transparency) | PixelEditor',
     description:
       'Convert PNG images to WebP directly in your browser while preserving transparency. Process files locally without uploading them to a server.',
     keywords: [
@@ -196,7 +196,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'webp-to-jpg',
     name: 'WebP to JPG',
     h1: 'WebP to JPG Converter',
-    title: 'WebP to JPG Converter Online | PixelEditor',
+    title: 'WebP to JPG Converter Online (Universal Format) | PixelEditor',
     description:
       'Convert WebP images to standard JPG format directly in your browser. Process files locally and download the converted image without server uploads.',
     keywords: [
@@ -215,7 +215,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'image-dimensions-checker',
     name: 'Dimensions checker',
     h1: 'Image Dimensions Checker',
-    title: 'Check Image Dimensions: Width, Height & Pixels | PixelEditor',
+    title: 'Image Dimensions Checker: Width, Height & DPI | PixelEditor',
     description:
       'Check image width, height, aspect ratio, and file size directly in your browser. Inspect image dimensions locally without uploading the file.',
     keywords: [
@@ -235,7 +235,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'exif-remover',
     name: 'EXIF remover',
     h1: 'EXIF & Metadata Remover',
-    title: 'Image Metadata & EXIF Remover Online | PixelEditor',
+    title: 'EXIF & Metadata Remover Online (Strip Photo GPS) | PixelEditor',
     description:
       'Remove supported EXIF metadata, GPS coordinates, camera information, and timestamps locally in your browser before sharing photos.',
     keywords: [
@@ -254,7 +254,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'batch-image-resizer',
     name: 'Batch resizer',
     h1: 'Batch Image Resizer',
-    title: 'Batch Image Resizer Online | PixelEditor',
+    title: 'Batch Image Resizer: Bulk Resize Photos Locally | PixelEditor',
     description:
       'Resize multiple images directly in your browser with local processing. Apply dimensions to a batch and download the processed files together.',
     keywords: [
@@ -273,7 +273,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'batch-image-compressor',
     name: 'Batch compressor',
     h1: 'Batch Image Compressor',
-    title: 'Batch Image Compressor Online | PixelEditor',
+    title: 'Batch Image Compressor: Bulk Photo Size Reducer | PixelEditor',
     description:
       'Compress multiple images locally in your browser without uploading them to a server. Monitor processing and download the optimized batch.',
     keywords: [
@@ -292,7 +292,7 @@ export const TOOLS: ToolMeta[] = [
     slug: 'batch-image-converter',
     name: 'Batch converter',
     h1: 'Batch Image Converter',
-    title: 'Batch Image Converter Online | PixelEditor',
+    title: 'Batch Image Converter: Bulk JPG, PNG & WebP | PixelEditor',
     description:
       'Convert multiple JPG, PNG, and WebP images directly in your browser. Process batches locally and download the converted files together.',
     keywords: [

@@ -5,12 +5,12 @@ import { Faq } from '@/components/content/Faq';
 import { Reveal } from '@/components/content/Reveal';
 import { BenefitList, LimitList, Section, Steps } from '@/components/content/Section';
 import { JsonLd } from '@/components/layout/JsonLd';
-import { faqJsonLd, pageMetadata, websiteJsonLd, type FaqItem } from '@/lib/seo';
+import { faqJsonLd, pageMetadata, type FaqItem } from '@/lib/seo';
 import { BRAND } from '@/lib/site';
 import { toolHref, toolsByCategory } from '@/lib/tools';
 
 export const metadata: Metadata = pageMetadata({
-  title: 'PixelEditor — Free & 100% Private Online Photo Tools',
+  title: 'PixelEditor: Free Online Image Resizer, Cropper & Compressor',
   description:
     'Process images directly in your browser with local image tools for resizing, cropping, compression, conversion, dimensions, EXIF cleaning, and batch processing.',
   keywords: [
@@ -266,7 +266,7 @@ export default function HomePage() {
         </article>
       </div>
 
-      <JsonLd data={[websiteJsonLd(), faqJsonLd(FAQ)]} />
+      <JsonLd data={faqJsonLd(FAQ)} />
     </>
   );
 }
