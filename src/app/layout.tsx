@@ -54,16 +54,16 @@ export const metadata: Metadata = {
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
-      { url: '/icon-48.png?v=5', type: 'image/png', sizes: '48x48' },
-      { url: '/icon-96.png?v=5', type: 'image/png', sizes: '96x96' },
-      { url: '/icon-144.png?v=5', type: 'image/png', sizes: '144x144' },
-      { url: '/icon-192.png?v=5', type: 'image/png', sizes: '192x192' },
-      { url: '/icon-512.png?v=5', type: 'image/png', sizes: '512x512' },
-      { url: '/favicon.ico?v=5', sizes: 'any' },
+      { url: '/icon-48.png?v=6', type: 'image/png', sizes: '48x48' },
+      { url: '/icon-96.png?v=6', type: 'image/png', sizes: '96x96' },
+      { url: '/icon-144.png?v=6', type: 'image/png', sizes: '144x144' },
+      { url: '/icon-192.png?v=6', type: 'image/png', sizes: '192x192' },
+      { url: '/icon-512.png?v=6', type: 'image/png', sizes: '512x512' },
+      { url: '/favicon.ico?v=6', sizes: 'any' },
     ],
-    shortcut: ['/favicon.ico?v=5'],
+    shortcut: ['/favicon.ico?v=6'],
     apple: [
-      { url: '/apple-icon.png?v=5', sizes: '180x180', type: 'image/png' },
+      { url: '/apple-icon.png?v=6', sizes: '180x180', type: 'image/png' },
     ],
   },
   openGraph: {
