@@ -44,11 +44,11 @@ export default function TermsPage() {
       toc={TOC}
       jsonLd={[
         webPageJsonLd({
-          name: `Terms of Service — ${BRAND}`,
+          name: 'Terms of Service — Free Browser Image Tools | PixelEditor',
           description:
             'Terms of Service for PixelEditor: terms for using our free browser-based image tools, user responsibilities, local processing scope, and liability limits.',
           path: '/terms/',
-          dateModified: LEGAL_LAST_UPDATED,
+          dateModified: '2026-10-18',
         }),
       ]}
     >

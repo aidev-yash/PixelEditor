@@ -41,11 +41,11 @@ export default function CookiesPage() {
       toc={TOC}
       jsonLd={[
         webPageJsonLd({
-          name: `Cookie Policy — ${BRAND}`,
+          name: 'Cookie Policy — Zero Tracking & No Cookies | PixelEditor',
           description:
             'PixelEditor sets no tracking or marketing cookies and loads no analytics scripts. Read why our tools need no cookie consent banner and how your data is handled.',
           path: '/cookies/',
-          dateModified: LEGAL_LAST_UPDATED,
+          dateModified: '2026-10-18',
         }),
       ]}
     >

@@ -42,11 +42,11 @@ export default function PrivacyPage() {
       toc={TOC}
       jsonLd={[
         webPageJsonLd({
-          name: `Privacy Policy — ${BRAND}`,
+          name: 'Privacy Policy — Zero Uploads & Local Processing | PixelEditor',
           description:
             'PixelEditor privacy policy: images are processed in your browser without server uploads. Clear information on web host logs, cookies, and local execution.',
           path: '/privacy/',
-          dateModified: LEGAL_LAST_UPDATED,
+          dateModified: '2026-10-18',
         }),
       ]}
     >

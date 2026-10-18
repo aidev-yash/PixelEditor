@@ -124,13 +124,6 @@ export function softwareApplicationJsonLd(tool: ToolMeta, featureList: string[])
     isAccessibleForFree: true,
     image: absoluteUrl('/favicon.svg'),
     screenshot: absoluteUrl('/og-image.png'),
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.9',
-      reviewCount: '1280',
-      bestRating: '5',
-      worstRating: '1',
-    },
     featureList,
     offers: {
       '@type': 'Offer',
