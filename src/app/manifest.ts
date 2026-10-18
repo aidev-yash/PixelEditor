@@ -8,21 +8,21 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Privacy-first image tools that run entirely in your browser.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#f5f6f7',
-    theme_color: '#0b0f15',
+    background_color: '#08090d',
+    theme_color: '#08090d',
     icons: [
       {
-        src: '/icon-192.png',
+        src: '/icon-192.png?v=5',
         sizes: '192x192',
         type: 'image/png',
       },
       {
-        src: '/icon-512.png',
+        src: '/icon-512.png?v=5',
         sizes: '512x512',
         type: 'image/png',
       },
       {
-        src: '/favicon.svg',
+        src: '/favicon.svg?v=5',
         sizes: 'any',
         type: 'image/svg+xml',
       },
